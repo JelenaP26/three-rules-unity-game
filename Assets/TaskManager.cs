@@ -18,8 +18,8 @@ public class TaskManager : MonoBehaviour
 
     private void Start()
     {
-        PlayerPrefs.DeleteKey("Task1Completed");
-        PlayerPrefs.DeleteKey("Task2Completed");
+        // PlayerPrefs.DeleteKey("Task1Completed");
+        // PlayerPrefs.DeleteKey("Task2Completed");
 
         task1Completed = PlayerPrefs.GetInt("Task1Completed", 0) == 1;
         task2Completed = PlayerPrefs.GetInt("Task2Completed", 0) == 1;
