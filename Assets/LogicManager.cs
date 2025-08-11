@@ -27,7 +27,7 @@ public class LogicManager : MonoBehaviour
 
     private void Start()
     {
-        PlayerPrefs.DeleteKey("HighScore");
+        // PlayerPrefs.DeleteKey("HighScore");
         highScore = PlayerPrefs.GetInt("HighScore", 0);
         if (highScoreText != null)
         {
